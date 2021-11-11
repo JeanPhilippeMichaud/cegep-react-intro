@@ -8,9 +8,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+
         <AppLogo logo={logo}/>
         
-        <Body/>
+        <Body src={logo}/>
 
         <DocumentationLink/>
       </header>
